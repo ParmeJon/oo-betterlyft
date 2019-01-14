@@ -1,4 +1,4 @@
-# BetterLyft™ 
+# BetterLyft™
 
 ## Deliverables
 You are building an app for a Lyft/Uber competitor. The models that you will use for your application are: Passenger, Driver, and Ride.
@@ -7,7 +7,7 @@ You are building an app for a Lyft/Uber competitor. The models that you will use
   - A Passenger has many rides
   - A Driver has many rides
   - A Ride belongs to a passenger and a driver
-  
+
 Always start by drawing out the relationship either on a whiteboard or piece of paper. Think about how each of these models will be connected. From there then begin writing code.
 
 ## Deliverables
@@ -39,7 +39,7 @@ A Ride should be initialized with a driver (as a Driver object), a passenger (as
   - Returns the distance of the ride
 - `Ride.average_distance`
   - Returns the average distance across ALL rides
-  
+
 #### Driver
 A Driver should be initialized with a name as a string.
 - `Driver#name`
@@ -52,4 +52,3 @@ A Driver should be initialized with a name as a string.
   - Returns an array of all Drivers
 - `Driver.mileage_cap(distance)`
   - Takes an argument of a distance (float) and returns an array of all Drivers who have driven over the mileage
-
